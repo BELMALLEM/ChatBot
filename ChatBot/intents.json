@@ -1,0 +1,46 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["bonjour", "bonsoir", "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "good morning", "greetings", "I have arrived"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Thank you for talking to me i was really lonely"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Farewell", "I'm leaving", "Sayonara", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "searchme",
+            "patterns": ["who is that ?", "where is that ?", "when  the thing had happened ?", "what is that ?", "what does mean that ?",
+                "do you know somthing about that ?", "i want to know about that"
+            ],
+            "responses": [""],
+            "action": "search"
+        },
+        {
+            "tag": "accept",
+            "patterns": ["sure", "yes I want", "yes I do", "absolutely",
+                "of course yes", "i'm ready to it", "I'm with it", "yeah"
+            ],
+            "responses": [""]
+        },
+        {
+            "tag": "reject",
+            "patterns": ["no", "just forget it", "include me out",
+                "i don't want it", "just wash your hands of it", "i'm out of it"
+            ],
+            "responses": [""]
+        }
+    ]
+}
