@@ -17,9 +17,9 @@ Its ability is in understanding the inputs by looking for known patterns.
  * Can search in Wikipedia by taping question like `What does mean ... ?`
 
 #  Architecture
-`Actions.py`: Contains methods for actions like sending mails, looking for news...
+** `Actions.py`: Contains methods for actions like sending mails, looking for news...
    It can be updated to do any task you want by adding a method you created and linking it the main file.
-`Execute.py`: The main file of executions.
-`Intents.json`: The dictionnary of the Bot that contains the programmed questions, answers and an actions to do.
-`Training.py`: After each update on `intents.json` the bot should create pattern to memorise them.
-`TextProcess.py`: Some essential functions for text processing that the bot use.
+** `Execute.py`: The main file of executions.
+** `Intents.json`: The dictionnary of the Bot that contains the programmed questions, answers and an actions to do.
+** `Training.py`: After each update on `intents.json` the bot should create pattern to memorise them.
+** `TextProcess.py`: Some essential functions for text processing that the bot use.
