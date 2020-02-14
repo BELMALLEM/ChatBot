@@ -23,11 +23,10 @@ Its ability is in understanding the inputs by looking for known patterns.
 * `Intents.json`: The dictionnary of the Bot that contains the programmed questions, answers and an actions to do.
 * `Training.py`: After each update on `intents.json` the bot should create pattern to memorise them.
 >{
-            "tag": "searchme",
-            "patterns": ["who is that ?", "where is that ?", "when  the thing had happened ?", "what is that ?", "what does mean that ?",
-                "do you know somthing about that ?", "i want to know about that"
-            ],
-            "responses": [""],
-            "action": "search"
-        },
+    "tag": "searchme",
+    "patterns": ["who is that ?", "where is that ?", "when  the thing had happened ?", "what is that ?", "what does mean that ?",
+    "do you know somthing about that ?", "i want to know about that"],
+    "responses": [""],
+    "action": "search"
+ }
 * `TextProcess.py`: Some essential functions for text processing that the bot use.
