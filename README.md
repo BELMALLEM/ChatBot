@@ -11,9 +11,15 @@ Its ability is in understanding the inputs by looking for known patterns.
 4. Play the game with your **Bot** 
 
 # Abilities
- . Easy to develop and add more functionalities
- . It can send Emails automatically just by saying it.
- . Can get the latest news for you using `myallies-breaking-news` *API*
- . Can search in Wikipedia by taping question like `What does mean ... ?`
+ * Easy to develop and add more functionalities
+ * It can send Emails automatically just by saying it.
+ * Can get the latest news for you using `myallies-breaking-news` *API*
+ * Can search in Wikipedia by taping question like `What does mean ... ?`
 
 #  Architecture
+`Actions.py`: Contains methods for actions like sending mails, looking for news...
+   It can be updated to do any task you want by adding a method you created and linking it the main file.
+`Execute.py`: The main file of executions.
+`Intents.json`: The dictionnary of the Bot that contains the programmed questions, answers and an actions to do.
+`Training.py`: After each update on `intents.json` the bot should create pattern to memorise them.
+`TextProcess.py`: Some essential functions for text processing that the bot use.
