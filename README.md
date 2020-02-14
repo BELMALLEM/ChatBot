@@ -9,3 +9,11 @@ Its ability is in understanding the inputs by looking for known patterns.
 3. Tap:
  > Python execute.py
 4. Play the game with your **Bot** 
+
+# Abilities
+ . Easy to develop and add more functionalities
+ . It can send Emails automatically just by saying it.
+ . Can get the latest news for you using `myallies-breaking-news` *API*
+ . Can search in Wikipedia by taping question like `What does mean ... ?`
+
+#  Architecture
