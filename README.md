@@ -21,7 +21,7 @@ Its ability is in understanding the inputs by looking for known patterns.
    It can be updated to do any task you want by adding a method you created and linking it the main file.
 * `Execute.py`: The main file of executions.
 * `Intents.json`: The dictionnary of the Bot that contains the programmed questions, answers and an actions to do.
-* `Training.py`: After each update on `intents.json` the bot should create pattern to memorise them.
+* `Training.py`: After each update on `intents.json` the bot should create patterns of the dictionnary, so this file should be executed after updating in the intents.
 >{
 
 >    "tag": "searchme",
