@@ -34,3 +34,6 @@ Its ability is in understanding the inputs by looking for known patterns.
 
 >}
 * `TextProcess.py`: Some essential functions for text processing that the bot use.
+
+# What to do next ?
+This bot can be adopted to every project and easily updates, so feel free to add as much of functionalities you want.
