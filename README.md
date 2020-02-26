@@ -15,6 +15,12 @@ Its ability is in understanding the inputs by looking for known patterns.
  * It can send Emails automatically just by saying it.
  * Can get the latest news for you using `myallies-breaking-news` *API*
  * Can search in Wikipedia by taping questions like `What does mean ... ?`
+ 
+ # Used libraries
+ This project is based on three principal libraries:
+   * 'tflearn.py': TFlearn is a modular and transparent deep learning library built on top of Tensorflow.
+   * 'numpy.py': NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
+   * 'json.py':
 
 #  Architecture
 * `Actions.py`: Contains methods for actions like sending mails, looking for news...
