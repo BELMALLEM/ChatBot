@@ -1,6 +1,5 @@
 # ChatBot :relaxed:
-This ChatBot is a basic program built in python and have the ability to interact with the user using programmed questions and responses.
-Its ability is in understanding the inputs by looking for known patterns.
+This ChatBot is a basic program built in python and have the ability to interact with the user using web-based APIs. Its ability is in understanding the inputs by looking for known patterns so it could say which APIs to call.
 
 # Installation
 
